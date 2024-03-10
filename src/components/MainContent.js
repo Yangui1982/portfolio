@@ -55,7 +55,7 @@ const MainContent = () => {
             autonome, motivé et adaptable, je mets à votre service toutes mes compétences.
           </p>
           <p>
-            J'ai une forte appétence pour le clean code, les structures de bases de données relationnelles,
+            J'ai une forte appétence, notamment pour le clean code, les structures de bases de données relationnelles,
             l'optimisation et enfin l'expérience utilisateur UX.
           </p>
           <div className='icon'>
