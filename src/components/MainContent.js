@@ -152,7 +152,7 @@ const MainContent = () => {
                 <div className='skillLogo'>
                   <img alt="JS" title="JS" loading="lazy" width="58" height="58" decoding="async" data-nimg="1" className='jsLogo' srcSet={jsLogo}/>
                 </div>
-                <h4>JavaScrip</h4>
+                <h4>JavaScript</h4>
               </div>
               <div className='skill'>
                 <div className='skillLogo'>
