@@ -382,9 +382,11 @@ const MainContent = () => {
                   <h2>Jgvicente.xyz</h2>
                   <p>Le portfolio sur lequel vous naviguez actuellement.</p>
                 </div>
-                <div className='bouton'>
-                  <p>Voir le Github</p>
-                </div>
+                <a href='https://github.com/Yangui1982/portfolio' target="_blank" rel="noopener noreferrer">
+                  <div className='bouton'>
+                    <p>Voir le Github</p>
+                  </div>
+                </a>
               </div>
             </div>
           </label>
