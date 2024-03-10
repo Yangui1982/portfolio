@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-regular-svg-icons';
 import '../styles/Header.scss';
 import bouletmatonLogo from '../assets/bouletmaton.png';
