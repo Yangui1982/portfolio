@@ -235,9 +235,14 @@ label{
   border-radius: 8px;
   backface-visibility: hidden;
 }
-.flip-card .back {
-  transform: rotateY(180deg);
+.flip-card .front {
+  transform: rotateY(0deg);
 }
+
+.flip-card .back {
+  transform: rotateY(180deg) rotate(0.1deg); /* Ajout d'une légère rotation */
+}
+
 input {
   display: none;
 }
