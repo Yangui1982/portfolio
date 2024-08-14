@@ -1,0 +1,122 @@
+[
+  {
+    "logo": "castle.png",
+    "title": "CastleBnB",
+    "status": "(Projet de formation)",
+    "description": [
+      "Projet de formation au Wagon, clone d'AirBnB sur le thème des châteaux de la Loire :",
+      "-Création d'une API REST pour les châteaux",
+      "-Implémentation des commentaires par château",
+      "-Implémentation des réservations"
+    ],
+    "githubLink": "https://github.com/Yangui1982/castlebnb",
+    "projectLink": null,
+    "skills": [
+      {"logo": "ruby-seeklogo.svg", "title": "Ruby"},
+      {"logo": "rails-seeklogo.svg", "title": "Rails"},
+      {"logo": "postgresql-seeklogo.svg", "title": "PostgreSQL"},
+      {"logo": "bootstrap-seeklogo.svg", "title": "Bootstrap"},
+      {"logo": "stimulus-seeklogo.svg", "title": "Stimulus"},
+      {"logo": "heroku-seeklogo.svg", "title": "Heroku"}
+    ]
+  },
+
+  {
+    "logo": "devislib-logo.png",
+    "title": "DevisLib",
+    "status": "(Projet de formation)",
+    "description": [
+      "Projet de formation au Wagon, une application, pour les artisans, permettant de créer directement un devis à partir d'un formulaire et d'une base de données de produits.",
+      "Le devis créé est édité en pdf et peut être directement envoyé par mail aux clients grâce à l'application."
+    ],
+    "githubLink": null,
+    "projectLink": null,
+    "skills": [
+      {"logo": "ruby-seeklogo.svg", "title": "Ruby"},
+      {"logo": "rails-seeklogo.svg", "title": "Rails"},
+      {"logo": "api.png", "title": "API"},
+      {"logo": "postgresql-seeklogo.svg", "title": "PostgreSQL"},
+      {"logo": "bootstrap-seeklogo.svg", "title": "Bootstrap"},
+      {"logo": "heroku-seeklogo.svg", "title": "Heroku"}
+    ]
+  },
+
+  {
+    "logo": "kiAikidoLogo.png",
+    "title": "Ki Aïkido Castelnaudary",
+    "status": "(Projet Freelance)",
+    "description": [
+      "Application web pour une association de Ki Aïkido avec Rich Text pour l'ajout des 'news' du club.",
+      "-Login uniquement pour le client (gem Devise)",
+      "-Sécurité des pages non accessible au public (gem Pundit)"
+    ],
+    "githubLink": null,
+    "projectLink": "https://www.ki-aikido-castelnaudary.com",
+    "skills": [
+      {"logo": "ruby-seeklogo.svg", "title": "Ruby"},
+      {"logo": "rails-seeklogo.svg", "title": "Rails"},
+      {"logo": "postgresql-seeklogo.svg", "title": "PostgreSQL"},
+      {"logo": "bootstrap-seeklogo.svg", "title": "Bootstrap"},
+      {"logo": "responsively.png", "title": "Responsively App"},
+      {"logo": "seoLogo.png", "title": "SEO"},
+      {"logo": "heroku-seeklogo.svg", "title": "Heroku"}
+    ]
+  },
+
+  {
+    "logo": "HFLogo.png",
+    "title": "Hment fier 2023",
+    "status": "(Projet Freelance)",
+    "description": [
+      "Site statique pour une opération de communication de l'A.R.S. PACA concernant différents projets, pensés et mis en place, dans des services hospitaliers des départements de la région."
+    ],
+    "githubLink": null,
+    "projectLink": "https://www.hment-fiers.fr",
+    "skills": [
+      {"logo": "jsLogo.png", "title": "JS"},
+      {"logo": "bootstrap-seeklogo.svg", "title": "Bootstrap"},
+      {"logo": "responsively.png", "title": "Responsively App"},
+      {"logo": "seoLogo.png", "title": "SEO"}
+    ]
+  },
+
+  {
+    "logo": "MSyndicLogo.png",
+    "title": "Monsieur Syndic",
+    "status": "(Projet Freelance)",
+    "description": [
+      "Application web avec Rich Text pour l'ajout des 'news' du cabinet de syndic.",
+      "-Login uniquement pour le client (gem Devise)",
+      "-Sécurité des pages non accessibles au public (gem Pundit)",
+      "-Possibilités d'envoi de mails au cabinet à partir d'un formulaire"
+    ],
+    "githubLink": null,
+    "projectLink": "https://www.monsieursyndic.net",
+    "skills": [
+      {"logo": "ruby-seeklogo.svg", "title": "Ruby"},
+      {"logo": "rails-seeklogo.svg", "title": "Rails"},
+      {"logo": "postgresql-seeklogo.svg", "title": "PostgreSQL"},
+      {"logo": "bootstrap-seeklogo.svg", "title": "Bootstrap"},
+      {"logo": "responsively.png", "title": "Responsively App"},
+      {"logo": "seoLogo.png", "title": "SEO"},
+      {"logo": "heroku-seeklogo.svg", "title": "Heroku"}
+    ]
+  },
+
+  {
+    "logo": "bouletmaton.png",
+    "title": "Jgvicente.xyz",
+    "status": "(Ce portfolio!)",
+    "description": [
+      "Le portfolio sur lequel vous naviguez actuellement."
+    ],
+    "githubLink": "https://github.com/Yangui1982/portfolio",
+    "projectLink": null,
+    "skills": [
+      {"logo": "reactLogo.png", "title": "React.JS"},
+      {"logo": "jsLogo.png", "title": "JS"},
+      {"logo": "responsively.png", "title": "Responsively App"},
+      {"logo": "seoLogo.png", "title": "SEO"}
+    ]
+  }
+]

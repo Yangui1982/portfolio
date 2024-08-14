@@ -1,6 +1,7 @@
 main {
   background-color: #26282b;
   color:whitesmoke;
+  margin-bottom: 100px;
 }
 main.light-theme{
   background-color: var(--background-color-light);
@@ -196,6 +197,8 @@ main.light-theme{
 .individualProjectContainer {
   height: 405px;
   width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 8px;
@@ -206,6 +209,7 @@ main.light-theme{
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease
 }
 label{
   width: 100%;
@@ -224,12 +228,20 @@ label{
   align-items: center;
   transform-style: preserve-3d;
   transition: transform 1500ms;
-  background-image: linear-gradient(#CFAA7A, #1b1d1f 100%,#CFAA7A 0%);
+  background-image: linear-gradient(#CFAA7A, #313131 100%,#CFAA7A 0%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
+  border: #CFAA7A solid 1px;
+}
+.individualProjectContainer:hover{
+  transform: scale(1.10);
 }
 .flip-card .front,
 .flip-card .back{
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 405px;
   width: 100%;
   border-radius: 8px;
@@ -265,9 +277,11 @@ input {
 
 }
 .profilePicture{
-  width: 100%
+  width: 100%;
 }
-
+.projectPicture{
+  border-radius: 8px 8px 0 0;
+}
 .projectTitle{
   text-align: center;
   text-align-last: center;
@@ -293,7 +307,6 @@ input {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 307px;
   h2 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -303,6 +316,11 @@ input {
     padding: 0 10px 0 10px ;
     text-align: justify;
   }
+}
+.boutons{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 .bouton{
   background-color: #26282b;
@@ -324,6 +342,11 @@ input {
 }
 .b {
   cursor: not-allowed;
+}
+.contactg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact{
   position: relative;
