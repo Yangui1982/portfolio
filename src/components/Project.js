@@ -14,7 +14,7 @@ const Project = ({ logo, title, status, description, githubLink, projectLink, sk
       <div className='flip-card'>
         <div className='front'>
           <div className='projectPicture'>
-            <img className='projectPicture' alt={title} title={title} loading="lazy" width="300" height="300" decoding="async" data-nimg="1" srcSet={logo} />
+            <img className='projectPicture' alt={title} title={title} loading="lazy" decoding="async" data-nimg="1" srcSet={logo} />
           </div>
           <div className='projectTitle'>
             <h3>{title}</h3>
