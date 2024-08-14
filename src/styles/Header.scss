@@ -71,10 +71,11 @@ button.light-theme{
   display: flex;
   gap: 0.5rem;
   padding-top: 1px;
-  padding-left: 10px;
-  padding-right: 8px;
+  padding-left: 11px;
+  padding-right: 4px;
   height: 36px;
   border-radius: 10px;
+  justify-content: center;
   align-items: center;
   background-color: #CFAA7A;
   border: 1px solid #161719;
@@ -110,6 +111,19 @@ button.light-theme{
 .choix .fa-moon{
   margin-right: 0.4vw
 }
+
+.buttons button,
+.cv,
+label[for="themeCheckbox"] {
+  transition: transform 0.3s ease;
+}
+
+.buttons button:hover,
+.cv:hover,
+label[for="themeCheckbox"]:hover {
+  transform: scale(1.20);
+}
+
 
 .hamburger-menu {
   display: none;
