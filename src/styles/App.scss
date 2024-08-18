@@ -3,7 +3,11 @@
   --background-color-dark: #26282b;
   --text-color-light: #26282b;
   --text-color-dark: whitesmoke;
-}
+  --test: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAA1JREFUGFdjWNud+B8ABhsCmY7eXlAAAAAASUVORK5CYII=),
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAA1JREFUGFdjWNud+B8ABhsCmY7eXlAAAAAASUVORK5CYII=),
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAA1JREFUGFdjEBOX/A8AAdMBRlnf4dMAAAAASUVORK5CYII=);
+  --color-spe: linear-gradient(#AD8B61, #AD8B61)
+  }
 
 .App {
   text-align: center;

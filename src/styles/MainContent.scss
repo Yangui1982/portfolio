@@ -1,23 +1,115 @@
 main {
   background-color: #26282b;
   color:whitesmoke;
+  margin-bottom: 100px;
 }
 main.light-theme{
   background-color: var(--background-color-light);
   color: var(--text-color-light);
 }
 
+// .accueil {
+//   position: relative;
+//   display: flex;
+//   width: 100%;
+//   gap: 0;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 250px 0 200px;
+//   height: auto;
+// }
+
+// .pitch {
+//   position: relative;
+//   display: flex;
+//   width: 25vw;
+//   min-width: 280px;
+//   max-width: 400px;
+//   flex-direction: column;
+//   gap: 30px;
+//   align-items: flex-start;
+//   justify-content: center;
+//   background: radial-gradient(#26282b,#181B1F);
+//   border-radius: 20px;
+//   box-shadow: 0 20px 25px -5px rgba(90,90,90,.1), 0 8px 10px -6px hsla(0,0%,43%,.1);
+//   padding: 20px;
+//   border: 1px solid #CFAA7A;
+// }
+
+// .pitch.light-theme{
+//   background: radial-gradient(whitesmoke,white);
+//   color: #26282b;
+// }
+
+// .pitch h1 {
+//   margin: 0;
+//   font-weight: 700;
+//   font-size: 3rem;
+//   color: #CFAA7A;
+// }
+// .pitch h2 {
+//   margin: 0;
+// }
+// .pitch p {
+//   margin: 0;
+// }
+
+// .icon {
+//   display: flex;
+//   justify-content: space-around;
+//   gap: 40px;
+// }
+
+// .icon i {
+//   font-size: 5rem;
+//   color: #CFAA7A;
+//   transition: transform 0.3s ease;
+// }
+
+// .icon i:hover{
+//   transform: scale(1.20);
+// }
+
+// .line{
+//   height: 0px;
+//   width: 10vw;
+//   left: 0;
+//   position: relative;
+//   background-repeat: no-repeat;
+//   border: 1px solid #CFAA7A;
+// }
+
+// .profilePicture{
+//   border-radius: 50%;
+//   width: 40vw;
+//   height: 100%;
+//   max-width: 400px;
+//   min-width: 250px;
+//   object-fit: contain;
+//   border: 2px double #CFAA7A;
+//   z-index: 1;
+// }
+/* CSS initial */
 .accueil {
   position: relative;
   display: flex;
-  width: 100%;
+  width: fit-content;
   gap: 0;
   justify-content: center;
   align-items: center;
-  margin: 250px 0 200px;
+  margin: 250px auto 200px auto;
   height: auto;
 }
-
+.pitchArea{
+  width: auto;
+  margin: 0 auto;
+  padding: 1px;
+  background-image: var(--test);
+  background-repeat: no-repeat;
+  background-size: 0 0, 0 0, 0% 0;
+  animation: 2s drawBorderFromLeft 0.5s forwards;
+  border-radius: 20px;
+}
 .pitch {
   position: relative;
   display: flex;
@@ -32,7 +124,6 @@ main.light-theme{
   border-radius: 20px;
   box-shadow: 0 20px 25px -5px rgba(90,90,90,.1), 0 8px 10px -6px hsla(0,0%,43%,.1);
   padding: 20px;
-  border: 1px solid #CFAA7A;
 }
 
 .pitch.light-theme{
@@ -43,7 +134,7 @@ main.light-theme{
 .pitch h1 {
   margin: 0;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #CFAA7A;
 }
 .pitch h2 {
@@ -56,21 +147,26 @@ main.light-theme{
 .icon {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
+  gap: 40px;
 }
 
 .icon i {
   font-size: 5rem;
   color: #CFAA7A;
+  transition: transform 0.3s ease;
+}
+
+.icon i:hover{
+  transform: scale(1.20);
 }
 
 .line{
-  height: 0px;
+  height: 1px;
   width: 10vw;
   left: 0;
   position: relative;
   background-repeat: no-repeat;
-  border: 1px solid #CFAA7A;
+  animation: 1s lineHorizontalGrow 2.5s forwards;
 }
 
 .profilePicture{
@@ -82,6 +178,66 @@ main.light-theme{
   object-fit: contain;
   border: 2px double #CFAA7A;
   z-index: 1;
+}
+
+/* Animations */
+@keyframes drawBorderFromTop {
+  0% {
+    background-size: 0 1px, 0 0, 100% 100%;
+    background-position: top center, top center, bottom center;
+  }
+  20% {
+    background-size: 100% 1px, 100% 0, 100% 100%;
+  }
+  66% {
+    background-size: 100% 1px, 100% 98%, 100% 100%;
+  }
+  100% {
+    background-position: top center, top center, bottom center;
+  }
+}
+
+@keyframes drawBorderFromLeft {
+  0% {
+    background-size: 1px 0, 0 0, 100% 100%;
+    background-position: center left, top left, center right;
+  }
+  20% {
+    background-size: 1px 100%, 0 100%, 100% 100%;
+    background-position: left left, top left, center right;
+  }
+  66% {
+    background-size: 1px 100%, 98% 100%, 100% 100%;
+    background-position: center left, top left, center right;
+    background-color: #CFAA7A;
+  }
+  100% {
+    background-size: 1px 100%, 98% 100%, 100% 1px;
+    background-position: center left, top left, center right;
+    background-color: #CFAA7A;
+  }
+}
+
+@keyframes lineVerticalGrow {
+  from {
+    background-size: 1px 0, 0% 0%;
+    background-image: var(--test);
+  }
+  to {
+    background-size: 100% 100%, 100% 100%;
+    background-image: var(--test);
+  }
+}
+
+@keyframes lineHorizontalGrow {
+  from {
+    background-size: 1px 1px, 0% 0%;
+    background-image: var(--test);
+  }
+  to {
+    background-size: 100% 100%, 100% 100%;
+    background-image: var(--test);
+  }
 }
 
 .skills {
@@ -196,6 +352,8 @@ main.light-theme{
 .individualProjectContainer {
   height: 405px;
   width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 8px;
@@ -206,6 +364,7 @@ main.light-theme{
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease
 }
 label{
   width: 100%;
@@ -224,12 +383,20 @@ label{
   align-items: center;
   transform-style: preserve-3d;
   transition: transform 1500ms;
-  background-image: linear-gradient(#CFAA7A, #1b1d1f 100%,#CFAA7A 0%);
+  background-image: linear-gradient(#CFAA7A, #313131 100%,#CFAA7A 0%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
+  border: #CFAA7A solid 1px;
+}
+.individualProjectContainer:hover{
+  transform: scale(1.10);
 }
 .flip-card .front,
 .flip-card .back{
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 405px;
   width: 100%;
   border-radius: 8px;
@@ -265,9 +432,13 @@ input {
 
 }
 .profilePicture{
-  width: 100%
+  width: 100%;
 }
-
+.projectPicture{
+  border-radius: 8px 8px 0 0;
+  width: 300px;
+  height: 300px;
+}
 .projectTitle{
   text-align: center;
   text-align-last: center;
@@ -293,7 +464,6 @@ input {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 307px;
   h2 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -303,6 +473,11 @@ input {
     padding: 0 10px 0 10px ;
     text-align: justify;
   }
+}
+.boutons{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 .bouton{
   background-color: #26282b;
@@ -324,6 +499,11 @@ input {
 }
 .b {
   cursor: not-allowed;
+}
+.contactg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact{
   position: relative;
@@ -385,5 +565,21 @@ input {
     width: 280px;
     padding: 5px;
     text-align: center;
+  }
+}
+
+@media (max-width: 319px) {
+  .individualProjectContainer{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .myProjectsContainer{
+    width: 298px;
+  }
+}
+
+@media (min-width: 319px){
+  .projectPicture{
+    width: 100%;
   }
 }
