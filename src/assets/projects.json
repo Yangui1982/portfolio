@@ -83,7 +83,7 @@
   {
     "logo": "MSyndicLogo.png",
     "title": "Monsieur Syndic",
-    "status": "(Projet Freelance)",
+    "status": "(Mission Freelance)",
     "description": [
       "Application web avec Rich Text pour l'ajout des 'news' du cabinet de syndic.",
       "-Login uniquement pour le client (gem Devise)",
@@ -117,6 +117,23 @@
       {"logo": "jsLogo.png", "title": "JS"},
       {"logo": "responsively.png", "title": "Responsively App"},
       {"logo": "seoLogo.png", "title": "SEO"}
+    ]
+  },
+
+  {
+    "logo": "helpmed.png",
+    "title": "HelpMed",
+    "status": "(Mission Freelance)",
+    "description": [
+      "Desktop App pour un groupe de centres médicaux d'urgence."
+    ],
+    "githubLink": null,
+    "projectLink": null,
+    "skills": [
+      {"logo": "electron-seeklogo.svg", "title": "ElectronJS"},
+      {"logo": "reactLogo.png", "title": "React.JS"},
+      {"logo": "jsLogo.png", "title": "JS"},
+      {"logo": "json-seeklogo.svg", "title": "JSON"}
     ]
   }
 ]

@@ -18,6 +18,7 @@ import gitLogo from '../assets/skillsIcons/gitLogo.png';
 import figmaLogo from '../assets/skillsIcons/figma-seeklogo.svg';
 import rrLogo from '../assets/skillsIcons/responsively.png';
 import herokuLogo from '../assets/skillsIcons/heroku-seeklogo.svg';
+import elecLogo from '../assets/skillsIcons/electron-seeklogo.svg';
 
 const SkillsSection = () => (
   <div className='skills' id='secskills'>
@@ -31,6 +32,7 @@ const SkillsSection = () => (
         <h3 className='skillsTitle'>Front End</h3>
         <div className='skillsIndividual'>
           <Skill logo={reactLogo} title="React.JS" />
+          <Skill logo={elecLogo} title="ElectronJS"/>
           <Skill logo={stimulusLogo} title="Stimulus" />
           <Skill logo={sassLogo} title="Sass" />
           <Skill logo={bootstrapLogo} title="Bootstrap" />
