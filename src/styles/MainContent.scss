@@ -248,6 +248,7 @@ main.light-theme{
 }
 
 .skillLogo img{
+  height: auto;
   width: 58px
 }
 
@@ -362,10 +363,8 @@ input {
   width: 300px;
   height: 300px;
 }
-.projectPicture img {
-  width: 100%;
-}
-.projectTitle{
+
+.pojectTitle{
   text-align: center;
   text-align-last: center;
   margin: 0;
@@ -385,6 +384,10 @@ input {
   justify-content: center;
   padding: 0 10px 10px;
   border-radius: 8px;
+}
+.projectSkills img{
+  height: auto;
+  width: 24px;
 }
 .aboutProject {
   display: flex;

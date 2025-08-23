@@ -14,7 +14,7 @@ const Project = ({ logo, title, status, description, githubLink, projectLink, sk
       <div className='flip-card'>
         <div className='front'>
           <div className='projectPicture'>
-            <img className='projectPicture' alt={title} title={title} loading="lazy" decoding="async" data-nimg="1" srcSet={logo} />
+            <img alt={title} title={title} loading="lazy" decoding="async" data-nimg="1" srcSet={logo} />
           </div>
           <div className='projectTitle'>
             <h3>{title}</h3>
@@ -22,7 +22,7 @@ const Project = ({ logo, title, status, description, githubLink, projectLink, sk
           </div>
           <div className='projectSkills'>
             {skills.map((skill, index) => (
-              <img key={index} alt={skill.title} title={skill.title} loading="lazy" width="24" height="24" decoding="async" data-nimg="1" srcSet={skill.logo} />
+              <img key={index} alt={skill.title} title={skill.title} loading="lazy" decoding="async" data-nimg="1" srcSet={skill.logo} />
             ))}
           </div>
         </div>
