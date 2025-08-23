@@ -22,7 +22,7 @@ import seoLogo from '../assets/skillsIcons/seoLogo.png';
 import rrLogo from '../assets/skillsIcons/responsively.png';
 import herokuLogo from '../assets/skillsIcons/heroku-seeklogo.svg';
 import elecLogo from '../assets/skillsIcons/electron-seeklogo.svg';
-
+import jsonLogo from '../assets/skillsIcons/json-seeklogo.svg';
 
 const logoMap = {
   "castle.png": castleBnBLogo,
@@ -43,7 +43,8 @@ const logoMap = {
   "seoLogo.png": seoLogo,
   "responsively.png": rrLogo,
   "jsLogo.png": jsLogo,
-  "electron-seeklogo.svg":elecLogo
+  "electron-seeklogo.svg": elecLogo,
+  "json-seeklogo.svg": jsonLogo
 };
 
 const ProjectsSection = () => {
