@@ -364,6 +364,10 @@ input {
   height: 300px;
 }
 
+.projectPicture img{
+  width: 300px;
+}
+
 .pojectTitle{
   text-align: center;
   text-align-last: center;
@@ -385,10 +389,7 @@ input {
   padding: 0 10px 10px;
   border-radius: 8px;
 }
-.projectSkills img{
-  height: auto;
-  width: 24px;
-}
+
 .aboutProject {
   display: flex;
   flex-direction: column;
