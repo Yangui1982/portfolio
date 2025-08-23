@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1350b855.css",
-    "main.js": "/static/js/main.7f0ee352.js",
+    "main.js": "/static/js/main.80720839.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/castle.png": "/static/media/castle.a720df326482577fc08e.png",
     "static/media/bouletmaton.png": "/static/media/bouletmaton.397aab1345081da67520.png",
@@ -18,17 +18,18 @@
     "static/media/postgresql-seeklogo.svg": "/static/media/postgresql-seeklogo.ae92b576b8ea41666538c0756df27969.svg",
     "static/media/redis-seeklogo.svg": "/static/media/redis-seeklogo.4be5948f9a514c71c9f29c61b226896b.svg",
     "static/media/heroku-seeklogo.svg": "/static/media/heroku-seeklogo.193dbd4c76bff84a68833a0898742edd.svg",
+    "static/media/electron-seeklogo.svg": "/static/media/electron-seeklogo.d384e8b4d71f97419cb801e78811b97b.svg",
     "static/media/stimulus-seeklogo.svg": "/static/media/stimulus-seeklogo.e221160ecd16851a667c2e04f6f9dc66.svg",
     "static/media/bootstrap-seeklogo.svg": "/static/media/bootstrap-seeklogo.527d0fc09fb3280153c26f0046a517a9.svg",
     "index.html": "/index.html",
     "static/media/figma-seeklogo.svg": "/static/media/figma-seeklogo.753c074260c28fd2c006e8a0bb5bdfe2.svg",
     "static/media/vue-js-seeklogo.svg": "/static/media/vue-js-seeklogo.c286d2da48ffbf281f407b0c4c94271f.svg",
     "main.1350b855.css.map": "/static/css/main.1350b855.css.map",
-    "main.7f0ee352.js.map": "/static/js/main.7f0ee352.js.map",
+    "main.80720839.js.map": "/static/js/main.80720839.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1350b855.css",
-    "static/js/main.7f0ee352.js"
+    "static/js/main.80720839.js"
   ]
 }
