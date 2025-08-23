@@ -19,6 +19,8 @@ import figmaLogo from '../assets/skillsIcons/figma-seeklogo.svg';
 import rrLogo from '../assets/skillsIcons/responsively.png';
 import herokuLogo from '../assets/skillsIcons/heroku-seeklogo.svg';
 import elecLogo from '../assets/skillsIcons/electron-seeklogo.svg';
+import jsonLogo from '../assets/skillsIcons/json-seeklogo.png';
+
 
 const SkillsSection = () => (
   <div className='skills' id='secskills'>
@@ -45,6 +47,7 @@ const SkillsSection = () => (
           <Skill logo={rubyLogo} title="Ruby" />
           <Skill logo={railsLogo} title="Rails" />
           <Skill logo={apiLogo} title="API" />
+          <Skill logo={jsonLogo} title="JSON" />
           <Skill logo={sqliteLogo} title="SQLite" />
           <Skill logo={postgresqlLogo} title="PostgeSQL" />
           <Skill logo={redisLogo} title="Redis" />

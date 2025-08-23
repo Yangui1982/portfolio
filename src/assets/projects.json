@@ -118,7 +118,7 @@
       {"logo": "electron-seeklogo.svg", "title": "ElectronJS"},
       {"logo": "reactLogo.png", "title": "React.JS"},
       {"logo": "jsLogo.png", "title": "JS"},
-      {"logo": "json-seeklogo.svg", "title": "JSON"}
+      {"logo": "json-seeklogo.png", "title": "JSON"}
     ]
   },
 
