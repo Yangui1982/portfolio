@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2442fba.css",
-    "main.js": "/static/js/main.eb6d9f4e.js",
+    "main.css": "/static/css/main.7aea3eb7.css",
+    "main.js": "/static/js/main.059bf94b.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/castle.png": "/static/media/castle.a720df326482577fc08e.png",
     "static/media/bouletmaton.png": "/static/media/bouletmaton.397aab1345081da67520.png",
@@ -26,12 +26,12 @@
     "index.html": "/index.html",
     "static/media/figma-seeklogo.svg": "/static/media/figma-seeklogo.753c074260c28fd2c006e8a0bb5bdfe2.svg",
     "static/media/vue-js-seeklogo.svg": "/static/media/vue-js-seeklogo.c286d2da48ffbf281f407b0c4c94271f.svg",
-    "main.d2442fba.css.map": "/static/css/main.d2442fba.css.map",
-    "main.eb6d9f4e.js.map": "/static/js/main.eb6d9f4e.js.map",
+    "main.7aea3eb7.css.map": "/static/css/main.7aea3eb7.css.map",
+    "main.059bf94b.js.map": "/static/js/main.059bf94b.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2442fba.css",
-    "static/js/main.eb6d9f4e.js"
+    "static/css/main.7aea3eb7.css",
+    "static/js/main.059bf94b.js"
   ]
 }
