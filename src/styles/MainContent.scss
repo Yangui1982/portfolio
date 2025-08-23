@@ -245,11 +245,10 @@ main.light-theme{
   border: 2px solid #26282b;
   filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
   box-sizing: border-box;
-}
-
-.skillLogo img{
-  height: auto;
-  width: 58px
+  img{
+    height: auto;
+    width: 58px
+  }
 }
 
 .skillLogo.light-theme{
@@ -358,17 +357,20 @@ input {
 .profilePicture{
   width: 100%;
 }
+
 .projectPicture{
+  display: flex;
+  align-items: center;
   border-radius: 8px 8px 0 0;
   width: 300px;
   height: 300px;
 }
 
 .projectPicture img{
-  width: 300px;
+  width: 100%;
 }
 
-.pojectTitle{
+.projectTitle{
   text-align: center;
   text-align-last: center;
   margin: 0;
@@ -389,9 +391,11 @@ input {
   padding: 0 10px 10px;
   border-radius: 8px;
 }
-.projectSkills img{
-  width: 24px;
+
+.projectSkills img {
+  height: 24px;
 }
+
 .aboutProject {
   display: flex;
   flex-direction: column;
