@@ -8,6 +8,7 @@ import kiAikidoLogo from '../assets/projectsIcons/kiAikidoLogo.png';
 import hFLogo from '../assets/projectsIcons/HFLogo.png';
 import MSyndicLogo from "../assets/projectsIcons/MSyndicLogo.png";
 import bouletmatonLogo from '../assets/bouletmaton.png';
+import helpmedLogo from '../assets/projectsIcons/helpmed.png';
 
 import reactLogo from '../assets/skillsIcons/reactLogo.png';
 import stimulusLogo from '../assets/skillsIcons/stimulus-seeklogo.svg';
@@ -20,6 +21,8 @@ import jsLogo from '../assets/skillsIcons/jsLogo.png';
 import seoLogo from '../assets/skillsIcons/seoLogo.png';
 import rrLogo from '../assets/skillsIcons/responsively.png';
 import herokuLogo from '../assets/skillsIcons/heroku-seeklogo.svg';
+import elecLogo from '../assets/skillsIcons/electron-seeklogo.svg';
+
 
 const logoMap = {
   "castle.png": castleBnBLogo,
@@ -27,6 +30,7 @@ const logoMap = {
   "kiAikidoLogo.png": kiAikidoLogo,
   "HFLogo.png": hFLogo,
   "MSyndicLogo.png": MSyndicLogo,
+  "helpmed.png": helpmedLogo,
   "bouletmaton.png": bouletmatonLogo,
   "reactLogo.png": reactLogo,
   "ruby-seeklogo.svg": rubyLogo,
@@ -38,7 +42,8 @@ const logoMap = {
   "heroku-seeklogo.svg": herokuLogo,
   "seoLogo.png": seoLogo,
   "responsively.png": rrLogo,
-  "jsLogo.png": jsLogo
+  "jsLogo.png": jsLogo,
+  "electron-seeklogo.svg":elecLogo
 };
 
 const ProjectsSection = () => {

@@ -103,6 +103,25 @@
     ]
   },
 
+    {
+    "logo": "helpmed.png",
+    "title": "HelpMed",
+    "status": "(Mission Freelance)",
+    "description": [
+      "Desktop App pour un groupe de centres médicaux d'urgence.",
+      "FAQ pour dépanner les médecins sur les problèmes informatiques.",
+      "Fonctionne sans internet grace à un fichier JSON en guise de DB."
+    ],
+    "githubLink": null,
+    "projectLink": null,
+    "skills": [
+      {"logo": "electron-seeklogo.svg", "title": "ElectronJS"},
+      {"logo": "reactLogo.png", "title": "React.JS"},
+      {"logo": "jsLogo.png", "title": "JS"},
+      {"logo": "json-seeklogo.svg", "title": "JSON"}
+    ]
+  },
+
   {
     "logo": "bouletmaton.png",
     "title": "Jgvicente.xyz",
@@ -117,23 +136,6 @@
       {"logo": "jsLogo.png", "title": "JS"},
       {"logo": "responsively.png", "title": "Responsively App"},
       {"logo": "seoLogo.png", "title": "SEO"}
-    ]
-  },
-
-  {
-    "logo": "helpmed.png",
-    "title": "HelpMed",
-    "status": "(Mission Freelance)",
-    "description": [
-      "Desktop App pour un groupe de centres médicaux d'urgence."
-    ],
-    "githubLink": null,
-    "projectLink": null,
-    "skills": [
-      {"logo": "electron-seeklogo.svg", "title": "ElectronJS"},
-      {"logo": "reactLogo.png", "title": "React.JS"},
-      {"logo": "jsLogo.png", "title": "JS"},
-      {"logo": "json-seeklogo.svg", "title": "JSON"}
     ]
   }
 ]
