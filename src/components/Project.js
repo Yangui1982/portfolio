@@ -48,7 +48,7 @@ const Project = ({ logo, title, status, description, githubLink, projectLink, sk
             {projectLink && (
               <a href={projectLink} target="_blank" rel="noopener noreferrer">
                 <div className='bouton'>
-                  <p>Voir le Projet</p>
+                  <p>Voir le site</p>
                 </div>
               </a>
             )}

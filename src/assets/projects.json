@@ -44,7 +44,7 @@
   {
     "logo": "kiAikidoLogo.png",
     "title": "Ki Aïkido Castelnaudary",
-    "status": "(Projet Freelance)",
+    "status": "(Mission Freelance)",
     "description": [
       "Application web pour une association de Ki Aïkido avec Rich Text pour l'ajout des 'news' du club.",
       "-Login uniquement pour le client (gem Devise)",
@@ -66,7 +66,7 @@
   {
     "logo": "HFLogo.png",
     "title": "Hment fier 2023",
-    "status": "(Projet Freelance)",
+    "status": "(Mission Freelance)",
     "description": [
       "Site statique pour une opération de communication de l'A.R.S. PACA concernant différents projets, pensés et mis en place, dans des services hospitaliers des départements de la région."
     ],
