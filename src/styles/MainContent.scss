@@ -247,6 +247,10 @@ main.light-theme{
   box-sizing: border-box;
 }
 
+.skillLogo img{
+  width: 58px
+}
+
 .skillLogo.light-theme{
   background: radial-gradient(whitesmoke, #e1e1e1);
   border: 2px solid rgba(245, 245, 245, 0.385);
@@ -357,6 +361,9 @@ input {
   border-radius: 8px 8px 0 0;
   width: 300px;
   height: 300px;
+}
+.projectPicture img {
+  width: 100%;
 }
 .projectTitle{
   text-align: center;
